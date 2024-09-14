@@ -1,0 +1,33 @@
+.item-detail{
+  cursor: pointer;
+}
+.image{
+  width: 200px;
+  height: 200px;
+}
+.delete{
+  cursor: pointer;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 1200PX;
+    margin: 0 auto;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color:#1a1616;}
+  
+  #customers tr:hover {background-color: #a83232;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
